@@ -19,7 +19,6 @@ label,button{                                   /*align labels and button */
     margin:10px 20px 10px 100px; 
 }
 mark {                                          /* highlighter  */
-  font: bold;
   background-color: yellow;                     
   color: black; 
 }
