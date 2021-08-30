@@ -1,4 +1,27 @@
-body {background-color:tan;}
-h1{color:green;}
+body{background-color:black;font-family:arial;color:white;}                                                          
+h1{color:grey;font-family:verdana;}                                            
+.maindiv{background-color:white;
+    color:black;
+	width:300px;  
+    padding:20px;
+    border-radius:25px;
+    align:center;
+	width:100%;height:100%;                     /* display on whole screen */
+}
+label,button{                                   /*align labels and button */
+	display: inline-block;
+	width: 150px;
+    margin:10px 20px 10px 100px; 
+} 
+#result{                                        /*align result field */
+    box-sizing: border-box;
+	display: inline-block;
+    margin:10px 20px 10px 100px; 
+}
+mark {                                          /* highlighter  */
+  font: bold;
+  background-color: yellow;                     
+  color: black; 
+}
 
 
